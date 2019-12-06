@@ -1,10 +1,10 @@
-package com.example.osgeo
+package com.example.osgeo.Actvities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.example.osgeo.Actvities.HomeActivity
+import com.example.osgeo.R
 
 class MainActivity : AppCompatActivity() {
 

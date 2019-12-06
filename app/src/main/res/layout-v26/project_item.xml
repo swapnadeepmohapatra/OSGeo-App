@@ -23,28 +23,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/miriam_libre_bold"
+            android:padding="15dp"
             android:text="Name of the Project"
             android:textColor="#4CB05B"
-            android:padding="15dp"
             android:textSize="32sp" />
 
 
         <TextView
-            android:paddingHorizontal="15dp"
             android:id="@+id/projectTagLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
             android:text="tagline of the Project"
             android:textSize="20sp" />
 
-        <Button
-            android:paddingHorizontal="18dp"
-            android:text="Learn More"
-            android:textColor="#fff"
-            android:background="#00393F"
-            android:layout_margin="20dp"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/companyLogo"
+                android:alpha="0.4"
+                android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="15dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <Button
+                android:id="@+id/infoBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00393F"
+                android:paddingHorizontal="18dp"
+                android:text="Learn More"
+                android:textColor="#fff" />
+        </LinearLayout>
+
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

@@ -34,47 +34,47 @@ class HomeActivity : AppCompatActivity() {
     private fun addProjects() {
         projectList.add(
             Project(
-                "deegree",
-                "deegree is open source software for spatial data infrastructures and the geospat…",
-                "https://www.osgeo.org/projects/deegree/",
-                "",
-                "https://www.osgeo.org/wp-content/uploads/Deegree_740x412_acf_cropped-1.png"
+                "GEOS",
+                "GEOS (Geometry Engine – Open Source) is a C++ port of the ?Java Topology S…",
+                "https://www.osgeo.org/projects/geos/",
+                "Trac",
+                "https://www.osgeo.org/wp-content/uploads/geos.png"
             )
         )
         projectList.add(
             Project(
-                "GeoMoose",
-                "GeoMoose is a Web Client JavaScript Framework for displaying distributed cartogr…",
-                "https://www.osgeo.org/projects/geomoose/",
-                "",
-                "https://www.osgeo.org/wp-content/uploads/GeoMoose.png"
+                "PostGIS",
+                "PostGIS adds GIS spatial types and support to PostgreSQL. It is used by Database…",
+                "https://www.osgeo.org/projects/postgis/",
+                "Trac",
+                "https://www.osgeo.org/wp-content/uploads/postgis-logo-1.png"
             )
         )
         projectList.add(
             Project(
-                "GeoServer",
-                "Designed for interoperability, GeoServer publishes data from any major spatial d…",
-                "https://www.osgeo.org/projects/geoserver/",
-                "",
-                "https://www.osgeo.org/wp-content/uploads/GeoServer.png"
+                "OSGeoLive",
+                "OSGeoLive is a self-contained bootable DVD, USB thumb drive or Virtual Machine b…",
+                "https://www.osgeo.org/projects/osgeolive/",
+                "GitHub",
+                "https://www.osgeo.org/wp-content/uploads/osgeolive-1.png"
             )
         )
         projectList.add(
             Project(
-                "GeoTools",
-                "An open source Java library providing a standards compliant approach for visuali…",
-                "https://www.osgeo.org/projects/geotools/",
-                "",
-                "https://www.osgeo.org/wp-content/uploads/GeoTools_740x412_acf_cropped.png"
+                "GDAL/OGR",
+                "GDAL is a C++ translator library for more than 200 raster and vector geospatial …",
+                "https://www.osgeo.org/projects/gdal/",
+                "GitHub",
+                "https://www.osgeo.org/wp-content/uploads/GDAL-1_740x412_acf_cropped.png"
             )
         )
         projectList.add(
             Project(
-                "PyWPS",
-                "PyWPS is an implementation of the Web Processing Service standard from the Open …",
-                "https://www.osgeo.org/projects/pywps/",
-                "",
-                "https://www.osgeo.org/wp-content/uploads/pywps-1_740x412_acf_cropped.png"
+                "GRASS GIS",
+                "GRASS GIS, commonly referred to as GRASS (Geographic Resources Analysis Support …",
+                "https://www.osgeo.org/wp-content/uploads/grassgis_logo_colorlogo_text_whitebg_square.png",
+                "Trac",
+                "https://www.osgeo.org/wp-content/uploads/grassgis_logo_colorlogo_text_whitebg_square.png"
             )
         )
 //        projectList.add(

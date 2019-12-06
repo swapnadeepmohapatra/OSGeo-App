@@ -9,8 +9,12 @@
         android:roundIcon="@drawable/ic_launcher_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Actvities.HomeActivity"></activity>
-        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Actvities.GitHubLoginActivity" />
+        <activity android:name=".Actvities.TracLoginActivity" />
+        <activity android:name=".Actvities.HomeActivity" />
+        <activity
+            android:name=".Actvities.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
