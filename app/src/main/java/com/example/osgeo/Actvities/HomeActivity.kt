@@ -61,7 +61,7 @@ class HomeActivity : AppCompatActivity() {
         )
         projectList.add(
             Project(
-                "GDAL/OGR",
+                "GDAL-OGR",
                 "GDAL is a C++ translator library for more than 200 raster and vector geospatial …",
                 "https://www.osgeo.org/projects/gdal/",
                 "GitHub",

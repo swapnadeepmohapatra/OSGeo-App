@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.osgeo.Actvities.DetailsActivity
 import com.example.osgeo.Actvities.GitHubLoginActivity
 import com.example.osgeo.Actvities.HomeActivity
 import com.example.osgeo.Actvities.TracLoginActivity
@@ -43,11 +44,12 @@ class ProjectsAdapter(
         picasso.load(items[position].imageUrl).into(holder.projectImage)
 
         holder.infoBtn.setOnClickListener {
-            if (items[position].type == "GitHub") {
-                context.startActivity(Intent(context, GitHubLoginActivity::class.java))
-            } else {
-                context.startActivity(Intent(context, TracLoginActivity::class.java))
-            }
+//            if (items[position].type == "GitHub") {
+                context.startActivity(Intent(context, DetailsActivity::class.java).putExtra("name",items[position].name))
+//                context.startActivity(Intent(context, GitHubLoginActivity::class.java))
+//            } else {
+//                context.startActivity(Intent(context, TracLoginActivity::class.java))
+//            }
         }
 
         if (items[position].type == "GitHub") {
