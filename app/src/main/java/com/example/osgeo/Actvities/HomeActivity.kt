@@ -1,11 +1,19 @@
 package com.example.osgeo.Actvities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.osgeo.Adapter.ProjectsAdapter
+import com.example.osgeo.Model.Project
 import com.example.osgeo.R
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.activity_home.*
+import okhttp3.*
+import org.json.JSONArray
+import java.io.IOException
+
 
 class HomeActivity : AppCompatActivity() {
 
@@ -14,12 +22,16 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        addProjects()
+//        addProjects()
 
+        fetchJson()
+    }
+
+    private fun putData(): Runnable? {
         rcylProjects.layoutManager = LinearLayoutManager(this)
-
         rcylProjects.adapter = ProjectsAdapter(projectList, this)
-
+        println(projectList)
+        return null
     }
 
     data class Project(
@@ -30,7 +42,37 @@ class HomeActivity : AppCompatActivity() {
         val imageUrl: String
     )
 
-    // Adds animals to the empty animals ArrayList
+    private fun fetchJson() {
+        val url = "https://enigmatic-brushlands-44077.herokuapp.com/projects"
+
+        val request = Request.Builder().url(url).build()
+
+        val client = OkHttpClient()
+        client.newCall(request).enqueue(object : Callback {
+            override fun onResponse(call: Call, response: Response) {
+                val body = response.body()?.string()
+                println(response.body().toString())
+                println(body)
+
+                val jsonArray = JSONArray(body)
+                for (i in 0 until jsonArray.length()) {
+                    val student: Project =
+                        Gson().fromJson<Project>(jsonArray.get(i).toString(), Project::class.java)
+                    projectList.add(student)
+                }
+                println(projectList[1].name)
+
+                runOnUiThread { putData() }
+
+            }
+
+            override fun onFailure(call: Call, e: IOException) {
+                println("not executed properly")
+            }
+
+        })
+    }
+
     private fun addProjects() {
         projectList.add(
             Project(
