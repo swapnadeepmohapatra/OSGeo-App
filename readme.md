@@ -29,6 +29,7 @@ The API made to fetch the lists of projects is made with Node.js. It uses MySQL 
 <img src="https://storage.googleapis.com/codein-prod.appspot.com/gci-2019/core_taskupdate/doc/5762280118026240_1576084254_SwapnadeepPro_api_1.png?Expires=1576322211&GoogleAccessId=codein-prod%40appspot.gserviceaccount.com&Signature=WsjE4icKIOi7ljlCbWjGrKiwTEaHcnXu2o2ibvqEVVEdM03vdsCtixANfakiDkyAizlRAaMIhJai9MiCL7On1OLJnD860lUKl7Q8Ra8qsYi%2FMBLElBtVayL9P4niiBODTf3V6kUBmYI5V6cq1tuFDn%2F62L7b1lTI0FVp8ebHPdn8KBx6V3xC4eMoW3vpVl3nuN21tNHWj0Ts%2Fwqcm%2FKmg5nMy8%2BGbGNDQGuYTgi4v%2BCQmCWJsD17ILc68%2Fk5GNoUPcTmuN8jLFvDmeTIOsEGq7sqwrm82S%2FcCp4FKMPY%2FaaFvX0tFro5Vz%2BzdF2PHW73bwvGVn9GYneh84XgCU5g9A%3D%3D" >
 </br>
 New data can be added to the API too.
+
 </br>
 <img src="https://storage.googleapis.com/codein-prod.appspot.com/gci-2019/core_taskupdate/doc/5762280118026240_1576084254_SwapnadeepPro_api_2.png?Expires=1576322309&GoogleAccessId=codein-prod%40appspot.gserviceaccount.com&Signature=tNZNZsIvH%2B60PoEfqes8jx14r2ia5tr3kZm0yQhfmSiStmDY9X4zbwwpO7sNz8Jm2fAbqVpMw7hr%2BW0UN4eAja7g9D7DyK8M7kq2lihms5%2BiEAISgOn1OqukDaa50zzppdP0fpNMpFRTvx3c8hg8bKEyxFRX%2BIGM3MBFtfUJ8Bdv%2Bmnnv%2BDjiveLXRR2A9Zgdn3EnAVu9WkAZa%2BiwlFWvEVMbTV7Nz3BnCPibsG%2BIm7ZdW0nimgpNd09xQBpxJnsKoZmWy10J%2FAqaTPM7n74O2%2BXqcR3ewOWvcI7GDHVJrYu9e%2BrIJaw4vvA1ouQSARfKgR8vKTDyrTaG%2B%2B753j7Nw%3D%3D" >
 </br>
