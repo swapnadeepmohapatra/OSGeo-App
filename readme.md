@@ -1,9 +1,9 @@
 # OSGeo-App
 
-## About Me
 
-Hey folks, 
-I am Swapnadeep Mohapatra from Odisha, India. I read in class 10. I have 2 years of coding experience making Android Apps and Web Apps. But it's my first time participating in Google Code-in.
+
+ 
+
 
 Contributing to OSGeo is really a great experience. I made Android App using Kotlin for the OSGeo projects. 
 
