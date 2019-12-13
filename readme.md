@@ -36,6 +36,12 @@ New data can be added to the API too.
 
 ## What I learned
 
-I have been developing apps using Java but my experience with Kotlin limited to the classic Hello World app. But to work in OSGeo i had to develop app in Kotlin.
+I have been developing apps using Java but my experience with Kotlin limited to the classic Hello World app. But to work in OSGeo i had to develop app in Kotlin. So, I tried my hands with Kotlin. 
+
+Also I didn't have much experience with API making but here I made a very complex REST API.
+
+So I was a great learning experience working for Google Code-In and OSGeo
 
 ## Difficulties I faced.
+
+Every developer faces error and bugs, there is no one who has coded flawlessly. I got a lot of error and a bunch of `Null Pointer Exception` . But after intense debugging I was able to get rid of all the errors. But it was really a great experience working with all these errors.
