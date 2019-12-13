@@ -9,10 +9,12 @@ Contributing to OSGeo is really a great experience. I made Android App using Kot
 
 ## What I did
 
-The app displays a list of Projects of OSGeo fetched through an API. 
+I made an app that displays a list of Projects of OSGeo fetched through an API. 
 
 There is a splash screen which displays the logo of OSGeo.
 
+<img src="https://firebasestorage.googleapis.com/v0/b/gci-osgeo.appspot.com/o/Screenshot_20191212-224810.png?alt=media&token=1ac19eae-d16d-4cd2-9fe6-2b9ac8b65e22" width="40%">
+<br/>
 On clicking on the more info button, the user can view a short description about the project along with some pictures.
 
 The API made to fetch the lists of projects is made with Node.js. It uses MySQL as a database and is hosted using Heroku.
